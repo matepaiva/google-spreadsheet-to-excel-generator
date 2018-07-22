@@ -1,0 +1,29 @@
+{
+  "name": "spreadsheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src",
+    "start:verbose": "node src -- --verbose",
+    "lint:fix": "eslint --fix src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "colors": "^1.3.0",
+    "dotenv": "^6.0.0",
+    "ejsexcel": "^3.5.2",
+    "get-root-path": "^2.0.2",
+    "google-spreadsheet": "^2.0.5",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}
